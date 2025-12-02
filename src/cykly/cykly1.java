@@ -6,7 +6,7 @@ public class cykly1 {
         int cislo = 1;
         for (int i = 0; i < n; i++) {
             for (int j = 0;j < n; j++) {
-                System.out.println(cislo);
+                System.out.print(cislo + " ");
                 cislo++;
             }
             System.out.println();

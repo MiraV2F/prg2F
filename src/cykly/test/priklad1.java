@@ -11,7 +11,7 @@ public class priklad1 {
 
             System.out.println(num);
          }while(num >= 0);
-        System.out.println("Konec");
+        System.out.println("End");
 
     }
 }
