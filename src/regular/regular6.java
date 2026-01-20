@@ -1,10 +1,10 @@
 package regular;
 
-public class regular4 {
+public class regular6 {
     public static void main(String[] args) {
-        String regex = "[A-Z]\\D+";
-        String jmeno = "Martin";
-        if (jmeno.matches(regex)) {
+        String regex = ".{0,1}\\d.\\d{0,}";
+        String dCislo = "+9.25225";
+        if (dCislo.matches(regex)) {
             System.out.println("Správně");
         }
         else{
@@ -12,3 +12,4 @@ public class regular4 {
         }
     }
 }
+
