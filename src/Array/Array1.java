@@ -2,13 +2,14 @@ package Array;
 import java.util.Scanner;
 public class Array1 {
     public static void main(String[] args) {
+
                 String[][] znackyKraju = {
                         {"Hlavní město Praha","A"},
                         {"Středočeský kraj","S"},
                         {"Ústecký kraj","U"},
                         {"Liberecký kraj","L"},
                         {"Karlovarský kraj","K"},
-                        {"Královehradexký kraj","H"},
+                        {"Královehradecký kraj","H"},
                         {"Pardubický kraj","E"},
                         {"Plzeňský kraj","P"},
                         {"Jihočeský kraj","C"},
