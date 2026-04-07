@@ -12,6 +12,10 @@ public class Auto {
         System.out.println("max. Rychlost" + this.maxRychlost);
         System.out.println("je pojízdné" + ((this.jePojizdne)?"ano":"ne"));
     }
+    void stav() {
+        if (aktualniRychlost > 0) System.out.println("mohu jet a jedu " + aktualniRychlost);
+
+    }
     public void nastartuj() {
         if (jePojizdne) jeNastartovane = true;
         else System.out.println("Nemohu nastartovat ,je to v pici.");
@@ -21,7 +25,11 @@ public class Auto {
            aktualniRychlost += oKolik;
            System.out.println("Jedu " + aktualniRychlost +"km/h");
        }
+       else if (!jePojizdne) {
+           System.out.println("Nefunguji");
+       }
        else System.out.println("Nejdřív nastartuj, vole!");
     }
+
 
 }

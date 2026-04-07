@@ -15,6 +15,9 @@ public class App {
         a2.jePojizdne =  true;
 
         a1.vypisInfo();
+        a1.nastartuj();
+        a1.zrychly(80);
+
 
     }
 }
