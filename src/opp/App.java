@@ -1,7 +1,7 @@
 package opp;
 
 public class App {
-    public static void main() {
+    public static void main(String[] args) {
         Auto a1 = new Auto();
         a1.nazev = " bourák";
         a1.barva = " zelená";
