@@ -10,5 +10,8 @@ public class vrat {
         Obdelnik obl = new Obdelnik();
         obl.strA = 5;
         obl.strB = 4;
+        obl.Obsah();
+        obl.Obvod();
+
     }
 }
