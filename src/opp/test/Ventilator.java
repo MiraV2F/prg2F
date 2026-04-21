@@ -7,17 +7,18 @@ public class Ventilator {
     static boolean stav;
 
     public void vypni() {
-        if (jeZapnuty) stav = false;
+        jeZapnuty = false;
         System.out.println("Ventilátor je vypnutý");
 
      }
     public void zapni() {
-        if (jeZapnuty) stav = true;
+        jeZapnuty = true;
         System.out.println("Ventilátor je zapnutý");
 
     }
     public void stav() {
-        if (jeZapnuty) stav = true;
+        System.out.println("Ventilátor je ?");
+        System.out.println((jeZapnuty));
 
     }
 
