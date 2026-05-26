@@ -1,12 +1,12 @@
 package opp;
 
 public class App {
-    public static void main(String[] args) {
+    public void main(String[] args) {
         Auto a1 = new Auto();
-        a1.nazev = " bourák";
         a1.barva = " zelená";
         a1.maxRychlost = 200;
         a1.jePojizdne = true;
+
 
         Auto a2 = new Auto();
         a2.nazev = " plechovka";
