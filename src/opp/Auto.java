@@ -1,6 +1,6 @@
 package opp;
 
-public class Auto {
+    public class Auto {
     String nazev;
     String barva;
     int maxRychlost, aktualniRychlost;

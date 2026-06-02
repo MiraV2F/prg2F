@@ -3,6 +3,7 @@ package opp;
 public class App {
     public void main(String[] args) {
         Auto a1 = new Auto();
+        a1.nazev = " bourák";
         a1.barva = " zelená";
         a1.maxRychlost = 200;
         a1.jePojizdne = true;
